@@ -70,6 +70,6 @@ MongoDB
 
 Mongoose
 
-JWT Authentication
-
 Multer (for file uploads)
+
+JWT Authentication
