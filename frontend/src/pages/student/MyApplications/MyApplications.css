@@ -1,0 +1,70 @@
+.student-main{
+  margin-left:240px;
+}
+
+.applications-container{
+  padding:30px;
+  background:#f9fafb;
+  min-height:100vh;
+}
+
+.table-container{
+  margin-top:20px;
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.05);
+  overflow-x:auto;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+thead{
+  background:#f3f4f6;
+}
+
+th, td{
+  padding:14px;
+  text-align:left;
+  font-size:14px;
+}
+
+tbody tr{
+  border-top:1px solid #eee;
+}
+
+tbody tr:hover{
+  background:#fafafa;
+}
+
+/* Status */
+
+.status{
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:12px;
+  font-weight:600;
+}
+
+.status.applied{
+  background:#e0f2fe;
+  color:#0369a1;
+}
+
+.status.interview{
+  background:#dcfce7;
+  color:#15803d;
+}
+
+.status.rejected{
+  background:#fee2e2;
+  color:#b91c1c;
+}
+
+.status.offer{
+  background:#fef3c7;
+  color:#92400e;
+}

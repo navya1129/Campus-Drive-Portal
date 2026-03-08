@@ -1,0 +1,64 @@
+.student-header{
+  height:80px;
+  background:white;
+  border-bottom:1px solid #e5e7eb;
+
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+
+  padding:0 30px;
+  /* margin-left:240px; */
+}
+
+.header-left h2{
+  font-size:22px;
+  font-weight:600;
+}
+
+.header-left p{
+  font-size:14px;
+  color:#6b7280;
+}
+
+.header-right{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+.notification{
+  position:relative;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.badge{
+  position:absolute;
+  top:-3px;
+  right:-3px;
+  width:8px;
+  height:8px;
+  background:red;
+  border-radius:50%;
+}
+
+.profile{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.avatar{
+  font-size:34px;
+  color:#2563eb;
+}
+
+.profile-info h4{
+  font-size:14px;
+}
+
+.profile-info p{
+  font-size:12px;
+  color:#6b7280;
+}

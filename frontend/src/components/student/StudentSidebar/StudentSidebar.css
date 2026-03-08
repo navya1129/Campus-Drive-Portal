@@ -1,0 +1,65 @@
+.student-sidebar{
+  width:240px;
+  height:100vh;
+  background:white;
+  border-right:1px solid #e5e7eb;
+  display:flex;
+  flex-direction:column;
+  /* justify-content:space-between; */
+  position:fixed;
+}
+
+.sidebar-header{
+  padding:24px;
+}
+
+.sidebar-header h2{
+  color:#2563eb;
+  font-size:20px;
+  font-weight:700;
+}
+
+.sidebar-header p{
+  font-size:13px;
+  color:#6b7280;
+  margin-top:4px;
+}
+
+.sidebar-menu{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+}
+
+.menu-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 16px;
+  border-radius:8px;
+  cursor:pointer;
+  color:#374151;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.menu-item:hover{
+  background:#f3f4f6;
+}
+
+.menu-item.active{
+  background:#e8efff;
+  color:#2563eb;
+  font-weight:600;
+}
+
+.icon{
+  font-size:16px;
+}
+
+.sidebar-footer{
+  padding:20px;
+  color:red;
+  cursor:pointer;
+  border-top:1px solid #eee;
+}

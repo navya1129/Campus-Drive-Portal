@@ -1,0 +1,152 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login-page{
+  min-height:100vh;
+  width:100%;
+  background:#f2f4f7;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.login-header{
+  text-align:center;
+  margin-bottom:30px;
+  font-size: 13px;
+}
+
+.login-header h1{
+  color:#2563eb;
+  font-size:26px;
+  font-weight:700;
+}
+
+.login-header p{
+  color:#555;
+  margin-top:5px;
+}
+
+.login-card{
+  width:380px;
+  background:white;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  overflow:hidden;
+}
+
+/* Tabs */
+
+.tabs{
+  display:flex;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.tab{
+  flex:1;
+  text-align:center;
+  padding:12px;
+  cursor:pointer;
+  font-weight:600;
+  color:#555;
+  background:#f8f8f8;
+  font-size: 13px;
+}
+
+.tab.active{
+  background: white;
+  color:#2563eb;
+  border-bottom:3px solid #2563eb;
+}
+
+/* Form */
+
+.form-section{
+  padding:28px;
+}
+
+label{
+  font-size:11px;
+  font-weight:600;
+  display:block;
+  margin-top:10px;
+  margin-bottom:6px;
+}
+
+.input-box{
+  display:flex;
+  align-items:center;
+  border:1px solid #d1d5db;
+  border-radius:8px;
+  padding:8px;
+  margin-bottom:16px;
+  background:#fafafa;
+  width: 100%;
+}
+
+
+.input-box input{
+  border:none;
+  outline:none;
+  width:100%;
+  font-size:14px;
+  background:transparent;
+}
+
+input::placeholder{
+    font-size: 12px;
+    color: #afaaaa;
+}
+
+.icon{
+  margin-right:8px;
+  color:#777;
+}
+
+.login-btn{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:#2563eb;
+  color:white;
+  font-size:14px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.login-btn:hover{
+  background:#1e4ed8;
+}
+
+.forgot{
+  text-align:center;
+  margin-top:14px;
+  font-size:12px;
+  color:#555;
+}
+
+.forgot span{
+  color:#2563eb;
+  cursor:pointer;
+}
+
+/* Responsive */
+
+@media (max-width:480px){
+
+.login-card{
+  width:90%;
+}
+
+.login-header h1{
+  font-size:28px;
+}
+
+}
